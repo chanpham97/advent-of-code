@@ -23,7 +23,7 @@ def process_code(mem):
 
     
 def main():
-    mem = load_mem('day2.txt')
+    mem = load_mem('../data/day2.txt')
     mem[1] = 12
     mem[2] = 2
     mem = process_code(mem)
@@ -31,7 +31,7 @@ def main():
     
     for i in range(0, 100):
         for j in range(0, 100):
-            mem = load_mem('day2.txt')
+            mem = load_mem('../data/day2.txt')
 
             mem[1] = i
             mem[2] = j

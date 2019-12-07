@@ -49,12 +49,12 @@ def sum_fuel_rec(file_name):
     return total_fuel
 
 def main():
-    answer1 = sum_fuel('day1.txt')
+    answer1 = sum_fuel('../data/day1.txt')
     print(answer1)
 
     print(fuel_required_rec(1969))
     print(fuel_required_rec(100756))
-    answer2 = sum_fuel_rec('day1.txt')
+    answer2 = sum_fuel_rec('../data/day1.txt')
     print(answer2)
 
 
